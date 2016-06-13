@@ -559,6 +559,49 @@ header .normal-logo {
 @media (max-width: 768px) {
   /* line 474, ../sass/screen.scss */
   .start-page--JS {
-    padding-top: 45px;
+    padding-top: 55px;
   }
+}
+
+/* line 481, ../sass/screen.scss */
+.mobile-finder {
+  display: block;
+  color: #000;
+  float: right;
+  height: 15px;
+  width: 15px;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  margin-top: -7.5px;
+  right: 15px;
+}
+
+/* line 494, ../sass/screen.scss */
+a.mobile-logo.sidebar-logo.mobile-only {
+  padding: 15px 0;
+  display: block;
+}
+
+/* line 499, ../sass/screen.scss */
+.sidebar-icons {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  clear: both;
+}
+/* line 504, ../sass/screen.scss */
+.sidebar-icons li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+  width: 33%;
+}
+/* line 510, ../sass/screen.scss */
+.sidebar-icons li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 10px 0;
 }

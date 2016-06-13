@@ -474,6 +474,44 @@ footer{
 .start-page--JS{
   padding-top: 171px;
   @media (max-width: 768px){
-    padding-top: 45px;
+    padding-top: 55px;
+  }
+}
+
+.mobile-finder {
+  display: block;
+  color: #000;
+  float: right;
+  height: 15px;
+  width: 15px;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  margin-top: -7.5px;
+  right: 15px;
+}
+
+a.mobile-logo.sidebar-logo.mobile-only {
+  padding: 15px 0;
+  display: block;
+}
+
+.sidebar-icons{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  clear: both;
+  li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+    width: 33%;
+    a{
+      display: block;
+      color: #000;
+      text-align: center;
+      padding: 10px 0;
+    }
   }
 }

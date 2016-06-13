@@ -20,8 +20,9 @@ $( window ).resize(function() {
 $(window).scroll(function() {  
   console.log('++');  
   var scroll = $(window).scrollTop();
+  var header = $('header').outerHeight();
 
-  if (scroll >= 175) {
+  if (scroll >= header) {
     $("header").addClass("header--JS");
     $(".start-page").addClass("start-page--JS");
   } else {
