@@ -280,10 +280,10 @@ h2 {
 
 /* line 203, ../sass/screen.scss */
 header {
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 /* line 208, ../sass/screen.scss */
 header .sticky-logo {
@@ -297,10 +297,10 @@ header .normal-logo {
 /* line 215, ../sass/screen.scss */
 .header--JS {
   position: fixed;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
   top: 0%;
   background: rgba(255, 255, 255, 0.85);
   width: 100%;
