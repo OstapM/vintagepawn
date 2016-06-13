@@ -293,17 +293,17 @@ header{
 }
 
 footer{
-   @media (max-width: 767px){
-    h5{
-      text-align: center;
+ @media (max-width: 767px){
+  h5{
+    text-align: center;
+  }
+  .column{
+    border-bottom: 1px solid #000;
+    &:last-child{
+      border-bottom: none;
     }
-    .column{
-      border-bottom: 1px solid #000;
-      &:last-child{
-        border-bottom: none;
-      }
-    }
-   }
+  }
+}
 }
 
 .footer-blog{
@@ -468,5 +468,12 @@ footer{
     height: 100%;
     width: 0px!important;
     background: rgba(34,36,38,.1);
+  }
 }
+
+.start-page--JS{
+  padding-top: 171px;
+  @media (max-width: 768px){
+    padding-top: 45px;
+  }
 }

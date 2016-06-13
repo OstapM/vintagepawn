@@ -23,7 +23,9 @@ $(window).scroll(function() {
 
   if (scroll >= 175) {
     $("header").addClass("header--JS");
+    $(".start-page").addClass("start-page--JS");
   } else {
     $("header").removeClass("header--JS");
+    $(".start-page").removeClass("start-page--JS");
   }
 });
