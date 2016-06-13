@@ -82,6 +82,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "thirsty_scriptlight" !important;
 }
 
+/* line 23, ../sass/screen.scss */
+body {
+  font-family: "proxima_nova_rgregular" !important;
+}
+
 /* line 28, ../sass/screen.scss */
 body, html {
   height: auto !important;
@@ -349,6 +354,7 @@ header .normal-logo {
   transition: all 1s ease;
   padding: 10px;
   margin-right: -1px;
+  font-family: "proxima_nova_ltsemibold" !important;
 }
 @media (min-width: 768px) {
   /* line 261, ../sass/screen.scss */
@@ -356,12 +362,12 @@ header .normal-logo {
     text-align: left;
   }
 }
-/* line 282, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 .tabular-content-img a:hover img {
   transition: all .2s ease-in-out;
   transform: scale(1.05);
 }
-/* line 286, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 .tabular-content-img a:hover span {
   background-position: left bottom;
   color: #fff;
@@ -369,37 +375,37 @@ header .normal-logo {
 }
 
 @media (max-width: 767px) {
-  /* line 297, ../sass/screen.scss */
+  /* line 298, ../sass/screen.scss */
   footer h5 {
     text-align: center;
   }
-  /* line 300, ../sass/screen.scss */
+  /* line 301, ../sass/screen.scss */
   footer .column {
     border-bottom: 1px solid #000;
   }
-  /* line 302, ../sass/screen.scss */
+  /* line 303, ../sass/screen.scss */
   footer .column:last-child {
     border-bottom: none;
   }
 }
 
-/* line 309, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 .footer-blog {
   margin: 0;
   padding: 0;
 }
-/* line 312, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 .footer-blog li {
   margin: 0;
   padding: 0;
   display: block;
 }
-/* line 317, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 .footer-blog li:first-child a {
   border-bottom: 1px dashed #000;
   padding-bottom: 15px;
 }
-/* line 322, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 .footer-blog li a {
   padding-top: 15px;
   display: block;
@@ -409,7 +415,7 @@ header .normal-logo {
   padding-left: 35px;
   position: relative;
 }
-/* line 330, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 .footer-blog li a:before {
   content: '';
   position: absolute;
@@ -423,12 +429,12 @@ header .normal-logo {
   margin-top: -11px;
 }
 
-/* line 346, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
 .instagram-block {
   padding-top: 15px;
 }
 @media (max-width: 767px) {
-  /* line 349, ../sass/screen.scss */
+  /* line 350, ../sass/screen.scss */
   .instagram-block img {
     display: block;
     margin: 0 auto;
@@ -436,12 +442,12 @@ header .normal-logo {
   }
 }
 
-/* line 358, ../sass/screen.scss */
+/* line 359, ../sass/screen.scss */
 .pushable {
   overflow-x: initial !important;
 }
 
-/* line 362, ../sass/screen.scss */
+/* line 363, ../sass/screen.scss */
 .header-with-background {
   display: block;
   text-align: center;
@@ -453,7 +459,7 @@ header .normal-logo {
   margin: 0 auto;
 }
 
-/* line 374, ../sass/screen.scss */
+/* line 375, ../sass/screen.scss */
 .site-map-wrap .social-wrap {
   padding-top: 15px;
   overflow: hidden;
@@ -462,13 +468,13 @@ header .normal-logo {
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 381, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 .site-map-wrap .social-wrap li {
   float: left;
   width: 50%;
   margin: 10px 0;
 }
-/* line 385, ../sass/screen.scss */
+/* line 386, ../sass/screen.scss */
 .site-map-wrap .social-wrap li a {
   display: block;
   margin: 0 auto;
@@ -478,38 +484,38 @@ header .normal-logo {
   height: 35px;
   width: 34px;
 }
-/* line 395, ../sass/screen.scss */
+/* line 396, ../sass/screen.scss */
 .site-map-wrap .social-wrap li.facebook a {
   background-image: url(../images/social-logo_01.png);
 }
-/* line 400, ../sass/screen.scss */
+/* line 401, ../sass/screen.scss */
 .site-map-wrap .social-wrap li.twitter a {
   background-image: url(../images/social-logo_03.png);
 }
-/* line 405, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 .site-map-wrap .social-wrap li.pinterest a {
   background-image: url(../images/social-logo_07.png);
 }
-/* line 410, ../sass/screen.scss */
+/* line 411, ../sass/screen.scss */
 .site-map-wrap .social-wrap li.instagram a {
   background-image: url(../images/social-logo_09.png);
 }
 
 @media (min-width: 768px) {
-  /* line 418, ../sass/screen.scss */
+  /* line 419, ../sass/screen.scss */
   .site-map-wrap {
     padding: 0 85px;
   }
 }
 
-/* line 424, ../sass/screen.scss */
+/* line 425, ../sass/screen.scss */
 .sitemap {
   margin: 0;
   padding: 0;
   overflow: hidden;
   clear: both;
 }
-/* line 429, ../sass/screen.scss */
+/* line 430, ../sass/screen.scss */
 .sitemap li {
   margin: 0;
   padding: 0;
@@ -518,15 +524,16 @@ header .normal-logo {
   width: 25%;
   margin: 5px 0;
 }
-/* line 436, ../sass/screen.scss */
+/* line 437, ../sass/screen.scss */
 .sitemap li a {
   display: block;
   color: #000;
   font-size: 10px;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
-/* line 445, ../sass/screen.scss */
+/* line 447, ../sass/screen.scss */
 .copyright {
   margin-top: 10px;
   text-align: center;
@@ -536,12 +543,12 @@ header .normal-logo {
   clear: both;
 }
 
-/* line 460, ../sass/screen.scss */
+/* line 462, ../sass/screen.scss */
 .ui.attached.stackable.menu.desktop-only.oswald-font {
   border-right: 0;
   border-left: 0px;
 }
-/* line 463, ../sass/screen.scss */
+/* line 465, ../sass/screen.scss */
 .ui.attached.stackable.menu.desktop-only.oswald-font .item:before {
   position: absolute;
   content: '';
@@ -552,18 +559,18 @@ header .normal-logo {
   background: rgba(34, 36, 38, 0.1);
 }
 
-/* line 474, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 .start-page--JS {
   padding-top: 171px;
 }
 @media (max-width: 768px) {
-  /* line 474, ../sass/screen.scss */
+  /* line 476, ../sass/screen.scss */
   .start-page--JS {
     padding-top: 55px;
   }
 }
 
-/* line 481, ../sass/screen.scss */
+/* line 483, ../sass/screen.scss */
 .mobile-finder {
   display: block;
   color: #000;
@@ -577,20 +584,20 @@ header .normal-logo {
   right: 15px;
 }
 
-/* line 494, ../sass/screen.scss */
+/* line 496, ../sass/screen.scss */
 a.mobile-logo.sidebar-logo.mobile-only {
   padding: 15px 0;
   display: block;
 }
 
-/* line 499, ../sass/screen.scss */
+/* line 501, ../sass/screen.scss */
 .sidebar-icons {
   margin: 0;
   padding: 0;
   overflow: hidden;
   clear: both;
 }
-/* line 504, ../sass/screen.scss */
+/* line 506, ../sass/screen.scss */
 .sidebar-icons li {
   margin: 0;
   padding: 0;
@@ -598,7 +605,7 @@ a.mobile-logo.sidebar-logo.mobile-only {
   float: left;
   width: 33%;
 }
-/* line 510, ../sass/screen.scss */
+/* line 512, ../sass/screen.scss */
 .sidebar-icons li a {
   display: block;
   color: #000;
@@ -606,39 +613,49 @@ a.mobile-logo.sidebar-logo.mobile-only {
   padding: 10px 0;
 }
 
-/* line 519, ../sass/screen.scss */
+/* line 521, ../sass/screen.scss */
 .pull-left {
   float: left;
 }
 
-/* line 522, ../sass/screen.scss */
+/* line 524, ../sass/screen.scss */
 .pull-right {
   float: right;
 }
 
-/* line 526, ../sass/screen.scss */
+/* line 528, ../sass/screen.scss */
 .my-account {
   margin: 0;
   padding: 0;
 }
-/* line 529, ../sass/screen.scss */
+/* line 531, ../sass/screen.scss */
 .my-account li {
   display: inline-block;
   float: left;
 }
-/* line 532, ../sass/screen.scss */
+/* line 534, ../sass/screen.scss */
 .my-account li:first-child {
   margin-right: 10px;
 }
-/* line 535, ../sass/screen.scss */
+/* line 537, ../sass/screen.scss */
 .my-account li a {
   display: block;
   color: #000;
   font-size: 10px;
 }
 
-/* line 543, ../sass/screen.scss */
+/* line 545, ../sass/screen.scss */
 .cell-number {
   color: #000;
   font-size: 13px;
+}
+
+/* line 551, ../sass/screen.scss */
+.tab-menu h4 {
+  padding-left: 1.42857em;
+}
+/* line 554, ../sass/screen.scss */
+.tab-menu .item {
+  font-family: 'proxima_nova_ltlight';
+  cursor: pointer;
 }

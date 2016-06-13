@@ -21,7 +21,7 @@
 
 
 body{
- // font-family: 'Avenir Next LT Pro Regular'!important;
+ font-family: 'proxima_nova_rgregular'!important;
 }
 
 
@@ -273,6 +273,7 @@ header{
       transition:all 1s ease;
       padding: 10px;
       margin-right: -1px;
+      font-family: 'proxima_nova_ltsemibold'!important;
       @media (min-width: 768px){
         // max-width: 70%;
         text-align: left;
@@ -438,6 +439,7 @@ footer{
       color: #000;
       font-size: 10px;
       text-align: center;
+      font-family: 'Oswald', sans-serif;
     }
   }
 }
@@ -543,4 +545,14 @@ a.mobile-logo.sidebar-logo.mobile-only {
 .cell-number{
   color: #000;
   font-size: 13px;
+}
+
+.tab-menu{
+  h4{
+    padding-left: 1.42857em;
+  }
+  .item{
+    font-family: 'proxima_nova_ltlight';
+    cursor: pointer;
+  }
 }
