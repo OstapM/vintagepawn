@@ -559,17 +559,6 @@ header .normal-logo {
   background: rgba(34, 36, 38, 0.1);
 }
 
-/* line 476, ../sass/screen.scss */
-.start-page--JS {
-  padding-top: 171px;
-}
-@media (max-width: 768px) {
-  /* line 476, ../sass/screen.scss */
-  .start-page--JS {
-    padding-top: 55px;
-  }
-}
-
 /* line 483, ../sass/screen.scss */
 .mobile-finder {
   display: block;
@@ -658,4 +647,24 @@ a.mobile-logo.sidebar-logo.mobile-only {
 .tab-menu .item {
   font-family: 'proxima_nova_ltlight';
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  /* line 561, ../sass/screen.scss */
+  .about-text-wrap img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+/* line 568, ../sass/screen.scss */
+.about-text-wrap h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+/* line 572, ../sass/screen.scss */
+.about-text-wrap p {
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: justify;
 }
