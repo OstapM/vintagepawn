@@ -306,7 +306,7 @@ header .normal-logo {
   width: 100%;
   overflow: hidden;
   left: 0;
-  z-index: 99999;
+  z-index: 999;
 }
 /* line 227, ../sass/screen.scss */
 .header--JS .ui.attached.stackable.menu.desktop-only.oswald-font {
@@ -667,4 +667,9 @@ a.mobile-logo.sidebar-logo.mobile-only {
   font-size: 16px;
   line-height: 1.5em;
   text-align: justify;
+}
+
+/* line 580, ../sass/screen.scss */
+.pusher.dimmed .header--JS {
+  position: inherit !important;
 }

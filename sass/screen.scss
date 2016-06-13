@@ -223,7 +223,7 @@ header{
   width: 100%;
   overflow: hidden;
   left: 0;
-  z-index: 99999;
+  z-index: 999;
   .ui.attached.stackable.menu.desktop-only.oswald-font{
     // position: fixed;
     // bottom: inherit;
@@ -574,4 +574,10 @@ p{
   line-height: 1.5em;
   text-align: justify;
 }
+}
+
+.pusher.dimmed{
+  .header--JS{
+    position: inherit!important;
+  }
 }
