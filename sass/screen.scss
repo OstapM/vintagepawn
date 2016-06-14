@@ -566,10 +566,27 @@ a.mobile-logo.sidebar-logo.mobile-only {
 .tab-menu{
   h4{
     padding-left: 1.42857em;
+    padding-left: 30px!important;
   }
   .item{
     font-family: 'proxima_nova_ltlight';
     cursor: pointer;
+    position: relative;
+    padding-left: 30px!important;
+  }
+  .item.active{
+    &:after{
+      position: absolute;
+      content: '';
+      left: -1px;
+      z-index: 999;
+      width: 0px;
+      height: 0px;
+      border-top: 24.75px solid transparent;
+      border-bottom: 24.75px solid transparent;
+      border-left: 24.75px solid #fff;
+      top: 0;
+    }
   }
 }
 
@@ -631,4 +648,47 @@ a.item.active{
 }
 .ui.attached.stackable.menu.desktop-only.oswald-font>.item:first-child{
   border-radius: 0;
+}
+
+.ui.tabular.vertical.menu.tab-menu{
+  @media (max-width: 767px){
+    h4{
+      text-align: center;
+      margin: 10px 0;
+      padding: 0 !important;
+      border-bottom: 1px solid #000;
+      padding-bottom: 15px!important;
+      display: block;
+      overflow: hidden;
+    }
+    border-right: 0;
+    .item{
+      display: inline-block !important;
+      bottom: 0 !important;
+      padding: 0 !important;
+      float: left;
+      width: 14%;
+      width: calc(100% / 7);
+      padding: 0 1.125%!important;
+      text-align: center;
+      &.active{
+        border: 0 !important;
+        &:after{
+          content: none;
+        }
+      }
+      @media (max-width: 639px){
+       width: calc(100% / 3);
+       margin: 10px 0;
+       border: 1px solid #000!important;
+       border-radius: 0!important;
+       // border-right: 0;
+       padding: 10px!important;
+       &.active{
+        border: 1px solid #000!important;
+        background-color: rgba(0,0,0,0.2);
+      }
+    }
+  }
+}
 }
