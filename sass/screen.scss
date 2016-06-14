@@ -462,6 +462,22 @@ footer{
 .ui.attached.stackable.menu.desktop-only.oswald-font{
   border-right: 0;
   border-left: 0px;
+  padding-left: 25px;
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 44px;
+    // border-top: 22.5px solid transparent;
+    // border-bottom: 22.5px solid transparent;
+    // border-left: 22.5px solid #fff;
+    // border: 1px solid #D4D4D5;
+    background-image:url(../images/arrow-left.png);
+    background-repeat: no-repeat;
+    background-position: center;  
+  }
   .item:before {
     position: absolute;
     content: '';
@@ -580,4 +596,39 @@ p{
   .header--JS{
     position: inherit!important;
   }
+}
+
+.ui.attached.stackable.menu.desktop-only.oswald-font{
+  a.item{
+    background: #F6F6F5;
+  }
+  .right.menu{
+   a.item{
+    background: transparent;
+  }
+  a.item.active{
+    background: transparent!important;
+    border-radius: 0;
+    position: relative;
+  }
+}
+a.item.active{
+    // background: transparent!important;
+    border-radius: 0;
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      bottom: 5px;
+      width: 100%;
+      left: 50%;
+      height: 2px;
+      background: #000;
+      max-width: 70%;
+      margin-left: -35%;
+    }
+  }
+}
+.ui.attached.stackable.menu.desktop-only.oswald-font>.item:first-child{
+  border-radius: 0;
 }

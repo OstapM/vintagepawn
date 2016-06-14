@@ -547,8 +547,21 @@ header .normal-logo {
 .ui.attached.stackable.menu.desktop-only.oswald-font {
   border-right: 0;
   border-left: 0px;
+  padding-left: 25px;
+  position: relative;
 }
-/* line 465, ../sass/screen.scss */
+/* line 467, ../sass/screen.scss */
+.ui.attached.stackable.menu.desktop-only.oswald-font:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 44px;
+  background-image: url(../images/arrow-left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 481, ../sass/screen.scss */
 .ui.attached.stackable.menu.desktop-only.oswald-font .item:before {
   position: absolute;
   content: '';
@@ -559,7 +572,7 @@ header .normal-logo {
   background: rgba(34, 36, 38, 0.1);
 }
 
-/* line 483, ../sass/screen.scss */
+/* line 499, ../sass/screen.scss */
 .mobile-finder {
   display: block;
   color: #000;
@@ -573,20 +586,20 @@ header .normal-logo {
   right: 15px;
 }
 
-/* line 496, ../sass/screen.scss */
+/* line 512, ../sass/screen.scss */
 a.mobile-logo.sidebar-logo.mobile-only {
   padding: 15px 0;
   display: block;
 }
 
-/* line 501, ../sass/screen.scss */
+/* line 517, ../sass/screen.scss */
 .sidebar-icons {
   margin: 0;
   padding: 0;
   overflow: hidden;
   clear: both;
 }
-/* line 506, ../sass/screen.scss */
+/* line 522, ../sass/screen.scss */
 .sidebar-icons li {
   margin: 0;
   padding: 0;
@@ -594,7 +607,7 @@ a.mobile-logo.sidebar-logo.mobile-only {
   float: left;
   width: 33%;
 }
-/* line 512, ../sass/screen.scss */
+/* line 528, ../sass/screen.scss */
 .sidebar-icons li a {
   display: block;
   color: #000;
@@ -602,74 +615,111 @@ a.mobile-logo.sidebar-logo.mobile-only {
   padding: 10px 0;
 }
 
-/* line 521, ../sass/screen.scss */
+/* line 537, ../sass/screen.scss */
 .pull-left {
   float: left;
 }
 
-/* line 524, ../sass/screen.scss */
+/* line 540, ../sass/screen.scss */
 .pull-right {
   float: right;
 }
 
-/* line 528, ../sass/screen.scss */
+/* line 544, ../sass/screen.scss */
 .my-account {
   margin: 0;
   padding: 0;
 }
-/* line 531, ../sass/screen.scss */
+/* line 547, ../sass/screen.scss */
 .my-account li {
   display: inline-block;
   float: left;
 }
-/* line 534, ../sass/screen.scss */
+/* line 550, ../sass/screen.scss */
 .my-account li:first-child {
   margin-right: 10px;
 }
-/* line 537, ../sass/screen.scss */
+/* line 553, ../sass/screen.scss */
 .my-account li a {
   display: block;
   color: #000;
   font-size: 10px;
 }
 
-/* line 545, ../sass/screen.scss */
+/* line 561, ../sass/screen.scss */
 .cell-number {
   color: #000;
   font-size: 13px;
 }
 
-/* line 551, ../sass/screen.scss */
+/* line 567, ../sass/screen.scss */
 .tab-menu h4 {
   padding-left: 1.42857em;
 }
-/* line 554, ../sass/screen.scss */
+/* line 570, ../sass/screen.scss */
 .tab-menu .item {
   font-family: 'proxima_nova_ltlight';
   cursor: pointer;
 }
 
 @media (max-width: 768px) {
-  /* line 561, ../sass/screen.scss */
+  /* line 577, ../sass/screen.scss */
   .about-text-wrap img {
     display: block;
     margin: 0 auto;
     text-align: center;
   }
 }
-/* line 568, ../sass/screen.scss */
+/* line 584, ../sass/screen.scss */
 .about-text-wrap h3 {
   font-size: 32px;
   margin-bottom: 20px;
 }
-/* line 572, ../sass/screen.scss */
+/* line 588, ../sass/screen.scss */
 .about-text-wrap p {
   font-size: 16px;
   line-height: 1.5em;
   text-align: justify;
 }
 
-/* line 580, ../sass/screen.scss */
+/* line 596, ../sass/screen.scss */
 .pusher.dimmed .header--JS {
   position: inherit !important;
+}
+
+/* line 602, ../sass/screen.scss */
+.ui.attached.stackable.menu.desktop-only.oswald-font a.item {
+  background: #F6F6F5;
+}
+/* line 606, ../sass/screen.scss */
+.ui.attached.stackable.menu.desktop-only.oswald-font .right.menu a.item {
+  background: transparent;
+}
+/* line 609, ../sass/screen.scss */
+.ui.attached.stackable.menu.desktop-only.oswald-font .right.menu a.item.active {
+  background: transparent !important;
+  border-radius: 0;
+  position: relative;
+}
+/* line 615, ../sass/screen.scss */
+.ui.attached.stackable.menu.desktop-only.oswald-font a.item.active {
+  border-radius: 0;
+  position: relative;
+}
+/* line 619, ../sass/screen.scss */
+.ui.attached.stackable.menu.desktop-only.oswald-font a.item.active:after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  left: 50%;
+  height: 2px;
+  background: #000;
+  max-width: 70%;
+  margin-left: -35%;
+}
+
+/* line 632, ../sass/screen.scss */
+.ui.attached.stackable.menu.desktop-only.oswald-font > .item:first-child {
+  border-radius: 0;
 }
