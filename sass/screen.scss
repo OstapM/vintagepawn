@@ -692,3 +692,41 @@ a.item.active{
   }
 }
 }
+
+
+.with-anglee{
+  @media (min-width: 1200px){
+    position: relative;
+    // background-image: url(../images/html-background.png);
+    // background-position: top left;
+    // background-repeat: repeat-y;
+    &:after{
+      content: '';
+      position: absolute;
+      left: -5.969em;
+      top: -20px;
+      border-top: 0px solid transparent;
+      border-bottom: 1306.89px solid transparent;
+      border-right: 6em solid #fff;
+      height: 0;
+      width: 0;
+      background-image: url(../images/background.png);
+      background-position: left top;
+      background-repeat: no-repeat;
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      right: -5.969em;
+      top: -20px;
+      border-top: 0px solid transparent;
+      border-bottom: 1306.89px solid transparent;
+      border-left: 6em solid #fff;
+      height: 0;
+      width: 0;
+      background-image: url(../images/background.png);
+      background-position: right top;
+      background-repeat: no-repeat;
+    }
+  }
+}
