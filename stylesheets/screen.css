@@ -655,7 +655,6 @@ a.mobile-logo.sidebar-logo.mobile-only {
 /* line 557, ../sass/screen.scss */
 .my-account li {
   display: inline-block;
-  float: left;
 }
 /* line 560, ../sass/screen.scss */
 .my-account li:first-child {
