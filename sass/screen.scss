@@ -32,12 +32,12 @@ body, html {
 
 
 .mobile-only{
- @media (min-width: 768px){
+ @media (min-width: 992px){
   display: none !important;
 }
 }
 .desktop-only{
-  @media (max-width: 767px){
+  @media (max-width: 991px){
     display: none !important;
   }
 }
@@ -86,8 +86,15 @@ body, html {
 
 
 .watch-main-deskription{
-  .ui.items>.item>.image:not(.ui) {
-    width: 560px;
+    @media (min-width: 768px){
+    .ui.items>.item>.image:not(.ui) {
+      width: 50%;
+    }
+  }
+  @media (min-width: 1024px){
+    .ui.items>.item>.image:not(.ui) {
+      width: 560px;
+    }
   }
 }
 
@@ -417,7 +424,7 @@ footer{
 }
 
 .site-map-wrap{
-  @media (min-width: 768px){
+  @media (min-width: 1024px){
     padding: 0 85px;
   }
 }
@@ -579,7 +586,7 @@ a.mobile-logo.sidebar-logo.mobile-only {
       position: absolute;
       content: '';
       left: -1px;
-      z-index: 999;
+      z-index: 993;
       width: 0px;
       height: 0px;
       border-top: 24.75px solid transparent;
@@ -592,6 +599,7 @@ a.mobile-logo.sidebar-logo.mobile-only {
 
 .about-text-wrap{
   img{
+    max-width: 100%;
    @media (max-width: 768px){
     display: block;
     margin: 0 auto;
@@ -729,4 +737,8 @@ a.item.active{
       background-repeat: no-repeat;
     }
   }
+}
+
+.instagram-block img{
+  max-width: 100%;
 }
