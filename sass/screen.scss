@@ -47,8 +47,9 @@ body, html {
   display: block;
   img{
     display: block;
-    margin: 20px auto;
+    margin: 0px auto;
     text-align: center;
+    padding: 20px 0;
   }
 }
 
@@ -86,7 +87,7 @@ body, html {
 
 
 .watch-main-deskription{
-    @media (min-width: 768px){
+  @media (min-width: 768px){
     .ui.items>.item>.image:not(.ui) {
       width: 50%;
     }
@@ -125,6 +126,7 @@ body, html {
   margin: 10px 0;
   position: relative;
   padding: 5px 0;
+  margin-top: 0;
 }
 
 .ui.attached.stackable.menu.desktop-only{
@@ -600,21 +602,21 @@ a.mobile-logo.sidebar-logo.mobile-only {
 .about-text-wrap{
   img{
     max-width: 100%;
-   @media (max-width: 768px){
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+    @media (max-width: 768px){
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
   }
-}
-h3{
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-p{
-  font-size: 16px;
-  line-height: 1.5em;
-  text-align: justify;
-}
+  h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: justify;
+  }
 }
 
 .pusher.dimmed{
@@ -711,34 +713,50 @@ a.item.active{
     &:after{
       content: '';
       position: absolute;
-      left: -5.969em;
-      top: -20px;
-      border-top: 0px solid transparent;
-      border-bottom: 1306.89px solid transparent;
-      border-right: 6em solid #fff;
-      height: 0;
-      width: 0;
-      background-image: url(../images/background.png);
+      left: -4.95em;
+      top: 0px;
+      // border-top: 0px solid transparent;
+      // border-bottom: 1306.89px solid transparent;
+      // border-right: 6em solid #fff;
+      height: 100%;
+      width: 5em;
+      background-image: url(../images/background-anglee.png);
       background-position: left top;
       background-repeat: no-repeat;
+      background-size: cover;
     }
     &:before{
       content: '';
       position: absolute;
-      right: -5.969em;
-      top: -20px;
-      border-top: 0px solid transparent;
-      border-bottom: 1306.89px solid transparent;
-      border-left: 6em solid #fff;
-      height: 0;
-      width: 0;
-      background-image: url(../images/background.png);
+      right: -4.95em;
+      top: 0px;
+      // border-top: 0px solid transparent;
+      // border-bottom: 1306.89px solid transparent;
+      // border-right: 6em solid #fff;
+      height: 100%;
+      width: 5em;
+      background-image: url(../images/background-anglee-right.png);
       background-position: right top;
       background-repeat: no-repeat;
+      background-size: cover;
     }
   }
 }
 
 .instagram-block img{
   max-width: 100%;
+}
+
+body{
+  @media (min-width: 1200px){
+    background-image: url(../images/background.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.with-anglee{
+  background: #fff;
+  padding: 0 10px;
 }
