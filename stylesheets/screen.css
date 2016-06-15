@@ -312,7 +312,7 @@ header .normal-logo {
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   top: 0%;
-  background: rgba(255, 255, 255, 0.85);
+  background: white;
   width: 100%;
   overflow: hidden;
   left: 0;
@@ -320,7 +320,7 @@ header .normal-logo {
 }
 /* line 236, ../sass/screen.scss */
 .header--JS .ui.attached.stackable.menu.desktop-only.oswald-font {
-  background: rgba(255, 255, 255, 0.85);
+  background: white;
   background: transparent;
 }
 /* line 246, ../sass/screen.scss */
@@ -868,4 +868,18 @@ a.mobile-logo.sidebar-logo.mobile-only {
 .with-anglee {
   background: #fff;
   padding: 0 10px;
+}
+
+/* line 765, ../sass/screen.scss */
+footer {
+  background: #fff;
+}
+/* line 766, ../sass/screen.scss */
+footer .container {
+  padding: 0 10px;
+}
+
+/* line 771, ../sass/screen.scss */
+main {
+  overflow: hidden;
 }

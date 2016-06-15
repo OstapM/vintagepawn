@@ -228,7 +228,7 @@ header{
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   top: 0%;
-  background: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,1);
   width: 100%;
   overflow: hidden;
   left: 0;
@@ -239,7 +239,7 @@ header{
     // top: 0;
     // left: 0;
     // width: 100%!important;
-    background: rgba(255,255,255,0.85);
+    background: rgba(255,255,255,1);
     background: transparent;
 
   }
@@ -760,4 +760,14 @@ body{
 .with-anglee{
   background: #fff;
   padding: 0 10px;
+}
+
+footer{
+  .container{
+    padding: 0 10px;
+ }
+  background: #fff;
+}
+main{
+  overflow: hidden;
 }
