@@ -79,7 +79,7 @@ body, html {
 
 
 .watch-main-deskription{
-  margin: 20px 0;
+  padding: 20px 0;
   .header{
     font-size: 48px!important;
   }
@@ -249,9 +249,10 @@ header{
   .sticky-logo{
     display: block;
     max-width: 30%;
-    margin: 5px auto;
+    margin: 0 auto;
     height: auto;
     width: auto;
+    padding: 5px 0;
   }
 }
 
@@ -499,9 +500,9 @@ footer{
 }
 
 .start-page--JS{
-  // padding-top: 171px;
+  padding-top: 205px;
   @media (max-width: 767px){
-    // padding-top: 55px;
+    padding-top: 34px;
   }
 }
 

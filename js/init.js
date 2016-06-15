@@ -25,10 +25,10 @@ $(window).scroll(function() {
   if (scroll >= header) {
     $("header").addClass("header--JS");
     $(".start-page").addClass("start-page--JS");
-    $(".start-page").css("padding-top", header);
+    // $(".start-page").css("padding-top", header);
   } else {
     $("header").removeClass("header--JS");
-    $(".start-page").css("padding-top", 0);
+    // $(".start-page").css("padding-top", 0);
     $(".start-page").removeClass("start-page--JS");
   }
 });
