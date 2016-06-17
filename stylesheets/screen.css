@@ -887,3 +887,16 @@ footer .container {
 main {
   overflow: hidden;
 }
+
+@media (max-width: 767px) {
+  /* line 783, ../sass/screen.scss */
+  .about-text-wrap .ui.stackable.three.column.grid .column {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 768px) {
+  /* line 780, ../sass/screen.scss */
+  .about-text-wrap {
+    padding: 0 10px;
+  }
+}

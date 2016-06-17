@@ -775,3 +775,18 @@ footer{
 main{
   overflow: hidden;
 }
+
+
+.about-text-wrap {
+  @media (max-width: 767px){
+    .ui.stackable.three.column.grid{
+      .column{
+        padding: 0!important;
+      }
+    }
+  }
+
+  @media (min-width: 768px){
+    padding: 0 10px;
+  }
+}
